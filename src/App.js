@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <h3>My Steps: {steps}</h3>
       <button onClick={handleIncreaseSteps}>Walk</button>
-        <Device name="phone" price="13400"></Device>
+        <Device name="phone" steps={steps} price="13400"></Device>
     </div>
   );
 }
